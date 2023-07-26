@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#left {
+    height: 100%;
+    width: 35%;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+#right {
+    height: 100%;
+    width: 65%;
+    background-color: beige;
+
+}
+
+#right-top {
+    height: 50%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+#right-bottom {
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1540492649367-c8565a571e4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-position: bottom;
+    background-size: cover;
+}
+
+#right-top-left {
+    height: 100%;
+    width: 55%;
+    background-image: url(https://images.unsplash.com/photo-1496643220534-f44559ffcb75?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#right-top-right {
+    height: 100%;
+    width: 45%;
+    background-image: url(https://images.unsplash.com/photo-1592187270271-9a4b84faa228?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#content>h1 {
+    font-size: 60px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+#content>p {
+    opacity: 0.6;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+#content a {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+#nav {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-right a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    margin-right: 20px;
+}
+
+#nav-right a:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+}
+
+#back-logo {
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+#twitter-logo {
+    color: #1DA1F2;
+    font-size: 32px;
+    margin-right: 20px;
+}
+
+#text-on-image {
+    height: 100%;
+    width: 100%;
+    top: 20%;
+    left: 50%;
+    position: absolute;
+}
+
+#text-on-image>h1 {
+    color: white;
+}
