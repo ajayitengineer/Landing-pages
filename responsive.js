@@ -2,13 +2,15 @@ let element = document.querySelector("i");
 let overlay = document.querySelector("#overlay");
 
 element.onclick = () => {
+    element.style.display = "hidden";
     overlay.style.display = "initial";
-    element.style.display = "none";
+
 }
 
-let close = document.querySelector("#close");
+let close = document.querySelector("#close-button");
 close.onclick = () => {
     overlay.style.display = "none";
     element.style.display = "initial";
+
 
 }
