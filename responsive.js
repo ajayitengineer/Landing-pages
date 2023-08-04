@@ -3,9 +3,12 @@ let overlay = document.querySelector("#overlay");
 
 element.onclick = () => {
     overlay.style.display = "initial";
+    element.style.display = "none";
 }
 
 let close = document.querySelector("#close");
 close.onclick = () => {
     overlay.style.display = "none";
+    element.style.display = "initial";
+
 }
